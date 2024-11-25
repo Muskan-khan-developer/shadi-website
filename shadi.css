@@ -1,0 +1,459 @@
+/* Reset */
+body,
+h1,
+h2,
+p,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f5f5f5;
+    color: #333;
+
+}
+
+.banner-img {
+    height: 100vh;
+    background-image: url('/shadi/banner.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+/* Top Header */
+
+.top-header {
+    background-color: #f0e6d8;
+    color: white;
+
+    position: relative;
+}
+
+.header {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 6px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+}
+
+.contact-info {
+    display: flex;
+    font-size: 12px;
+    font-weight: bold;
+    color: #333;
+    align-items: center;
+}
+
+.contact {
+    margin-left: 20px;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Social Icons */
+.social-icons a {
+    margin-left: 10px;
+    color: #333;
+    font-size: 12px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: #0e3b75;
+}
+
+/* Main Header */
+header {
+    background-color: #0e3b75;
+    color: white;
+
+    position: relative;
+}
+
+.header-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.logo h1 {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.actions {
+    display: flex;
+    gap: 10px;
+}
+
+.actions select,
+.actions button {
+    padding: 8px 12px;
+    border: none;
+    outline: none;
+}
+
+.actions button {
+    background: transparent;
+    color: white;
+    cursor: pointer;
+}
+
+.actions button i {
+    padding-right: 5px;
+}
+
+/* Navigation */
+.main-nav {
+    justify-content: space-between;
+    padding: 15px 0;
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.nav {
+    background-color: #ce2c42f6;
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.nav-menu li {
+    margin: 0 15px;
+    position: relative;
+}
+
+.nav-menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.nav-icons i {
+    color: #fff;
+    margin-left: 30px;
+    margin-right: 10px;
+    font-size: 12px;
+}
+
+
+/* Dropdown Menu */
+.dropdown .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    color: #333;
+    padding: 10px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    min-width: 950px;
+    max-width: 800px;
+    margin-left: -110px;
+    margin-top: 13px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-columns {
+    display: flex;
+    gap: 40px;
+}
+
+.dropdown-columns ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.dropdown-columns li {
+    padding: 3px 0;
+}
+
+.dropdown-columns li a {
+    color: #333;
+    text-decoration: none;
+}
+
+.dropdown-columns li a:hover {
+    color: #d8243c;
+}
+
+/*-------dropdown 1 --------*/
+.dropdown-1 .dropdown-content-1 {
+    display: none;
+    position: absolute;
+    background-color: white;
+    color: #333;
+    padding: 10px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 2;
+    min-width: 600px;
+    max-width: 700px;
+    margin-left: -200px;
+    margin-top: 13px;
+}
+
+.dropdown-1:hover .dropdown-content-1 {
+    display: block;
+}
+
+.dropdown-columns-1 {
+    display: flex;
+    gap: 120px;
+}
+
+.dropdown-columns-1 ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.dropdown-columns-1 ul h1 {
+    font-size: 15px;
+    color: #d8243c;
+    padding: 10px 15px;
+}
+
+.dropdown-columns-1 li {
+    padding: 3px 0;
+}
+
+.dropdown-columns-1 li a {
+    color: #333;
+    text-decoration: none;
+}
+
+.dropdown-columns-1 li a:hover {
+    color: #d8243c;
+}
+
+/*-------dropdown 2------*/
+.dropdown-2 .dropdown-content-2 {
+    display: none;
+    position: absolute;
+    background-color: white;
+    color: #333;
+    padding: 10px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 2;
+    min-width: 600px;
+    max-width: 700px;
+    margin-left: -350px;
+    margin-top: 13px;
+}
+
+.dropdown-2:hover .dropdown-content-2 {
+    display: block;
+}
+
+.dropdown-columns-2 {
+    display: flex;
+    gap: 140px;
+}
+
+.dropdown-columns-2 ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.dropdown-columns-2 ul h1 {
+    font-size: 15px;
+    color: #d8243c;
+    padding: 10px 15px;
+}
+
+.dropdown-columns-2 li {
+    padding: 3px 0;
+}
+
+.dropdown-columns-2 li a {
+    color: #333;
+    text-decoration: none;
+}
+
+.dropdown-columns-2 li a:hover {
+    color: #d8243c;
+}
+
+/* Hero Section */
+.hero {
+    padding: 330px 0;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    position: relative;
+}
+
+.hero-content {
+    position: relative;
+    z-index: 1;
+    margin-bottom: 20px;
+}
+
+.hero-content h2 {
+    background-color: #333333bd;
+    margin: 5px auto;
+    width: 350px;
+    font-size: 30px;
+    padding: 5px 0;
+
+}
+
+.hero-content h2 span {
+    color: #ffffffad;
+}
+
+.search-bar {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.search-bar input {
+    padding: 17px 12px;
+    font-weight: bold;
+    color: darkgray;
+    border: none;
+    outline: none;
+    width: 290px;
+}
+
+.search-bar button {
+    padding: 15px 50px;
+    background-color: #d8243c;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: -2px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .header-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .nav-menu {
+        flex-direction: column;
+    }
+
+    .dropdown-columns {
+        flex-direction: column;
+    }
+
+    .dropdown .dropdown-content {
+        min-width: 100%;
+    }
+}
+/* Trusted Vendors Section */
+
+.wedding-info {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    justify-content: center;
+    background-image: url(/shadi/home-services.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  
+}
+
+.info-card {
+    flex: 1 1 200px;
+    max-width: 250px;
+    text-align: center;
+    padding: 20px;
+}
+
+.info-card h3 {
+    margin-top: 15px;
+    font-size: 1.2rem;
+    color: #2e3a56;
+}
+
+.info-card p {
+    margin-top: 10px;
+    font-size: 0.9rem;
+    color: #555;
+}
+
+.info-card img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .vendor-item {
+        width: 80px;
+        height: 80px;
+        padding: 10px;
+    }
+
+    .info-card {
+        max-width: 180px;
+    }
+}
+
+/* style inspiration page*/
+.heading2 {
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    color: #1c355e;
+    margin-bottom: 40px;
+}
+.her-icon {
+    background: url(/shadi/payment-sprite.png) no-repeat;
+    width: 48px;
+    height: 48px;
+    background-position: -160px -259px;
+    display: inline-flex;
+    position: relative;
+    top: 14px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
